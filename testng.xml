@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="parallel test Execution ">
+	<test name="Chrome test">
+	<parameter name="f" value="30"/>  
+	<parameter name="x" value="5"/>  
+	<parameter name="a" value="10"/>  
+	<parameter name="b" value="5"/>  
+
+<groups>
+	<define name="Running Arithemetic prgms">
+		<include name="atithemrtic operation">
+			
+		</include>
+		</define>
+</groups>
+    <classes>
+      <class name="org.jpg.com.UsingTestNGAnnotations"/>
+      <class name="org.jpg.com.UsingArithemiticLogic"/>
+    </classes>
+    
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-parallel_test_Execution_" class="navigator-link">
+              <span class="suite-name border-passed">parallel test Execution </span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-parallel_test_Execution_" class="navigator-link ">
+                    <span>C:\Users\NITHYA .S\eclipse-workspace\MyTestNG\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-parallel_test_Execution_" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-parallel_test_Execution_" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-parallel_test_Execution_" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-parallel_test_Execution_" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-parallel_test_Execution_" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-parallel_test_Execution_" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-parallel_test_Execution_" class="hide-methods passed suite-parallel_test_Execution_"> (hide)</a> <!-- hide-methods passed suite-parallel_test_Execution_ -->
+                      <a href="#" panel-name="suite-parallel_test_Execution_" class="show-methods passed suite-parallel_test_Execution_"> (show)</a> <!-- show-methods passed suite-parallel_test_Execution_ -->
+                    </span>
+                    <div class="method-list-content passed suite-parallel_test_Execution_">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingArithemiticLogic" class="method navigator-link" hash-for-method="additingMethod(30, 5)">additingMethod(30, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingArithemiticLogic" class="method navigator-link" hash-for-method="divMethod(30, 5)">divMethod(30, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingTestNGAnnotations" class="method navigator-link" hash-for-method="facebook">facebook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingTestNGAnnotations" class="method navigator-link" hash-for-method="google">google</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingArithemiticLogic" class="method navigator-link" hash-for-method="mulMethod(10, 5)">mulMethod(10, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-parallel_test_Execution_" title="org.jpg.com.UsingArithemiticLogic" class="method navigator-link" hash-for-method="subMethod(10, 5)">subMethod(10, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-parallel_test_Execution_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-parallel_test_Execution_" class="panel parallel_test_Execution_">
+          <div class="suite-parallel_test_Execution_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jpg.com.UsingTestNGAnnotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebook">
+                  </a> <!-- facebook -->
+                  <span class="method-name">facebook</span>
+                  <em>
+(Will execute the faceBook LoginPage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="google">
+                  </a> <!-- google -->
+                  <span class="method-name">google</span>
+                  <em>
+(In Google search Engine search for ramcaharan)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallel_test_Execution_-class-passed -->
+          <div class="suite-parallel_test_Execution_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jpg.com.UsingArithemiticLogic</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="additingMethod(30, 5)">
+                  </a> <!-- additingMethod(30, 5) -->
+                  <span class="method-name">additingMethod</span>
+                  <span class="parameters">(30, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divMethod(30, 5)">
+                  </a> <!-- divMethod(30, 5) -->
+                  <span class="method-name">divMethod</span>
+                  <span class="parameters">(30, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mulMethod(10, 5)">
+                  </a> <!-- mulMethod(10, 5) -->
+                  <span class="method-name">mulMethod</span>
+                  <span class="parameters">(10, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subMethod(10, 5)">
+                  </a> <!-- subMethod(10, 5) -->
+                  <span class="method-name">subMethod</span>
+                  <span class="parameters">(10, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parallel_test_Execution_-class-passed -->
+        </div> <!-- panel parallel_test_Execution_ -->
+        <div panel-name="test-xml-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\NITHYA .S\eclipse-workspace\MyTestNG\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;parallel test Execution &quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome test&quot;&gt;
+    &lt;parameter name=&quot;a&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;b&quot; value=&quot;5&quot;/&gt;
+    &lt;parameter name=&quot;f&quot; value=&quot;30&quot;/&gt;
+    &lt;parameter name=&quot;x&quot; value=&quot;5&quot;/&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;Running Arithemetic prgms&quot;&gt;
+        &lt;include name=&quot;atithemrtic operation&quot;/&gt;
+      &lt;/define&gt; &lt;!-- Running Arithemetic prgms --&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jpg.com.UsingTestNGAnnotations&quot;/&gt;
+      &lt;class name=&quot;org.jpg.com.UsingArithemiticLogic&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome test --&gt;
+&lt;/suite&gt; &lt;!-- parallel test Execution  --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for parallel test Execution </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for parallel test Execution </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">atithemrtic operation</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">additingMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">divMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">mulMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">subMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for parallel test Execution </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_parallel_test_Execution_');
+function tableData_parallel_test_Execution_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'google')
+data.setCell(0, 2, 'org.jpg.com.UsingTestNGAnnotations')
+data.setCell(0, 3, 13385);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'facebook')
+data.setCell(1, 2, 'org.jpg.com.UsingTestNGAnnotations')
+data.setCell(1, 3, 1632);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'additingMethod')
+data.setCell(2, 2, 'org.jpg.com.UsingArithemiticLogic')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mulMethod')
+data.setCell(3, 2, 'org.jpg.com.UsingArithemiticLogic')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'subMethod')
+data.setCell(4, 2, 'org.jpg.com.UsingArithemiticLogic')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'divMethod')
+data.setCell(5, 2, 'org.jpg.com.UsingArithemiticLogic')
+data.setCell(5, 3, 0);
+window.suiteTableData['parallel_test_Execution_']= { tableData: data, tableDiv: 'times-div-parallel_test_Execution_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-parallel_test_Execution_">
+              </div> <!-- times-div-parallel_test_Execution_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for parallel test Execution </span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-parallel_test_Execution_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jpg.com.UsingTestNGAnnotations</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">browserlaunch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">maxinize</span>
+                <span class="method-start">2677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebook</span>
+                <span class="method-start">2799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakingSC</span>
+                <span class="method-start">4435 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">maxinize</span>
+                <span class="method-start">14998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">google</span>
+                <span class="method-start">15007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">TakingSC</span>
+                <span class="method-start">28394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitBrowserMethod</span>
+                <span class="method-start">31178 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jpg.com.UsingArithemiticLogic</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">additingMethod(30, 5)</span>
+                <span class="method-start">31861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mulMethod(10, 5)</span>
+                <span class="method-start">31861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subMethod(10, 5)</span>
+                <span class="method-start">31861 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divMethod(30, 5)</span>
+                <span class="method-start">31861 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
